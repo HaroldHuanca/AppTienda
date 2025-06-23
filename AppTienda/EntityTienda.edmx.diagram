@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e5c9d092cf6f4e0aaf17af998be00ff8" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Caja" Width="1.5" PointX="5.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Categorias" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Clientes" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Compras" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.DetalleCompras" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.DetalleVentas" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Empleados" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Inventario" Width="1.5" PointX="5.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Productos" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Proveedores" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Usuarios" Width="1.5" PointX="3" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="AbarrotesSaritaModel.Ventas" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__Caja__UsuarioID__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__Productos__Categ__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__Ventas__ClienteI__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__Compras__Proveed__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__DetalleCo__Compr__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__DetalleCo__Produ__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__DetalleVe__Produ__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__DetalleVe__Venta__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__Usuarios__Emplea__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__Ventas__Empleado__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__Inventari__Produ__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="AbarrotesSaritaModel.FK__Productos__Prove__3D5E1FD2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
