@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Empleados.aspx" />
     <Content Include="EntityTienda.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EntityTienda.Context.cs</LastGenOutput>
@@ -206,6 +207,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Ventas.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -259,6 +261,13 @@
     </Compile>
     <Compile Include="DetalleVentas.cs">
       <DependentUpon>EntityTienda.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.aspx.cs">
+      <DependentUpon>Empleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleados.aspx.designer.cs">
+      <DependentUpon>Empleados.aspx</DependentUpon>
     </Compile>
     <Compile Include="Empleados.cs">
       <DependentUpon>EntityTienda.tt</DependentUpon>
@@ -315,8 +324,16 @@
     <Compile Include="Usuarios.cs">
       <DependentUpon>EntityTienda.tt</DependentUpon>
     </Compile>
+    <Compile Include="Ventas.aspx.cs">
+      <DependentUpon>Ventas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ventas.aspx.designer.cs">
+      <DependentUpon>Ventas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ventas.cs">
       <DependentUpon>EntityTienda.tt</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
