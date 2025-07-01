@@ -13,6 +13,14 @@ namespace AppTienda
             var settings = new FriendlyUrlSettings();
             settings.AutoRedirectMode = RedirectMode.Permanent;
             routes.EnableFriendlyUrls(settings);
+
+            // Redirige la ruta raíz ("/") a Nosotros.aspx
+            routes.MapPageRoute(
+                routeName: "Inicio",
+                routeUrl: "", // Ruta vacía = página principal
+                physicalFile: "~/About.aspx" // Nueva página de inicio
+            );
         }
     }
 }
+
